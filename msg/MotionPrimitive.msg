@@ -1,5 +1,5 @@
 # Motion Primitives:
-uint8 LINEAR_JOINT=0 # Often referred as PTP
+uint8 LINEAR_JOINT=10 # Often referred as PTP  (mathias31415: changed from 0 to 10 because 0 is default value)
 uint8 LINEAR_CARTESIAN=50 # Often referred as LIN
 uint8 CIRCULAR_CARTESIAN=51 # Often referred as CIRC
 # potentially more, such as spline motion
