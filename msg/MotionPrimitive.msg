@@ -6,6 +6,7 @@ uint8 CIRCULAR_CARTESIAN=51 # Often referred as CIRC
 
 # Helper types
 uint8 STOP_MOTION=66 # (mathias31415: added to stop current motion)
+uint8 RESET_STOP=67
 uint8 MOTION_SEQUENCE_START=100 # (mathias31415: added to indicate, that next motion primitives should be send as a motion sequence to the robot)
 uint8 MOTION_SEQUENCE_END=101   # (mathias31415: end of the motion sequence)
 
