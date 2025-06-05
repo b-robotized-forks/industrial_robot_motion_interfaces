@@ -4,13 +4,6 @@ uint8 LINEAR_CARTESIAN=50 # Often referred as LIN
 uint8 CIRCULAR_CARTESIAN=51 # Often referred as CIRC
 # potentially more, such as spline motion
 
-# Helper types
-uint8 STOP_MOTION=66 # (mathias31415: added to stop current motion)
-uint8 RESET_STOP=67
-uint8 MOTION_SEQUENCE_START=100 # (mathias31415: added to indicate, that next motion primitives should be send as a motion sequence to the robot)
-uint8 MOTION_SEQUENCE_END=101   # (mathias31415: end of the motion sequence)
-
-
 uint8 type # one of the above
 
 float64 blend_radius
