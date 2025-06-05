@@ -3,6 +3,8 @@ MotionSequence trajectory
 int32 SUCCESSFUL = 0
 int32 INVALID_GOAL = -1
 int32 OLD_HEADER_TIMESTAMP = -3
+int32 CANCELED = -4
+int32 FAILED = -5
 
 int32 error_code
 string error_string
